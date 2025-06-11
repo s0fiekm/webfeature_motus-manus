@@ -3,8 +3,8 @@ import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
-    <section className="flex flex-row justify-between gap-x-14 w-full bg-secondary px-16 py-10">
-      <div className="w-lg text-primary ">
+    <section className="sm:flex sm:flex-col lg:flex lg:flex-row sm:justify-start lg:justify-between gap-x-14 w-full bg-secondary  lg:px-20 py-10">
+      <div className="px-6 lg:px-0 lg:w-lg text-primary ">
         <h2>
           Behandling der gør en forskel - både for medarbejderen og virksomheden
         </h2>

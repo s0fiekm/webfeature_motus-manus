@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="bg-primary py-8 flex flex-col justify-center items-center gap-4">
+    <header className="bg-primary py-8 flex flex-col justify-center items-center gap-4 w-full">
       <div className=" flex flex-col justify-center items-center gap-2 ">
         <Image src="/assets/logo.svg" width={150} height={150} alt="Logo" />
         <span className="logoFont text-secondary ">Motus og Manus</span>

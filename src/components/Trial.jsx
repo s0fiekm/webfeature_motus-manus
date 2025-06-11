@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Trial() {
   return (
-    <section className="bg-cta w-full flex flex-col justify-center items-center text-secondary py-20">
+    <section className="bg-cta w-full flex flex-col justify-center items-center text-secondary py-20 px-5 lg:px-0 text-center">
       <h1>Prøvebehandling til Halv Pris!</h1>
       <p>
         Før I binder jer til et forløb, tilbyder jeg op til en halv dags

@@ -3,8 +3,8 @@ import PaymentCard from "./PaymentCard";
 
 export default function Prices() {
   return (
-    <section className="flex flex-row w-full justify-between px-20 bg-secondary py-30">
-      <div className="w-lg text-primary">
+    <section className="flex flex-col gap-10 lg:gap-0  lg:flex lg:flex-row w-full justify-between px-5 lg:px-20 bg-secondary py-30">
+      <div className="lg:w-lg text-primary flex flex-col px-5 lg:px-0">
         <h2>Pris & Betalingsløsninger</h2>
         <p>
           Få en fleksibel ordning, der kan tilpasses dine behov og dit budget –
@@ -21,7 +21,7 @@ export default function Prices() {
           <li>Bruttolønsordning (skattefri sundhedsfremme)</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 px-5 lg:px-0">
         <PaymentCard
           title="Virksomhedsfinaniseret"
           number="1"
