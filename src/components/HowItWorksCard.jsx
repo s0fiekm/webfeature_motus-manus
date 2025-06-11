@@ -1,11 +1,17 @@
-import React from "react";
+export default function HowItWorksCard({number, title, text, align}) {
+  const isLeft = align === "left";
 
-export default function HowItWorksCard({number, title, text}) {
   return (
-    <div className="flex items-center justify-center ">
-      <div className="w-[360px] h-[360px] border border-secondary rounded-full flex flex-col justify-start text-secondary pt-22">
-        <div className="w-[200px] mx-auto">
-          <h3 className="font-bold ">{number}</h3>
+    <div
+      className={`
+        flex 
+        ${isLeft ? "justify-start" : "justify-end"} 
+        lg:justify-center
+      `}
+    >
+      <div className="w-[260px] h-[260px] lg:w-[360px] lg:h-[360px] lg:-ml-20 border border-secondary rounded-full flex flex-col items-center justify-center px-4">
+        <div className="flex flex-col items-start text-left text-secondary max-w-[220px]">
+          <h3 className="font-bold text-lg">{number}</h3>
           <p className="font-bold">{title}</p>
           <p>{text}</p>
         </div>

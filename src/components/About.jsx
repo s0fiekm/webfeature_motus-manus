@@ -4,8 +4,8 @@ import {GoDotFill} from "react-icons/go";
 
 export default function About() {
   return (
-    <section className="lg:flex lg:flex-row w-full lg:justify-between pr-30 items-center bg-surface  flex flex-col">
-      <div className="relative w-full lg:w-2/5 h-[800px]">
+    <section className="lg:flex lg:flex-row w-full lg:justify-between  lg:pr-30 items-center bg-surface  flex flex-col">
+      <div className="relative w-full lg:w-1/3 h-[800px]">
         <Image
           src="/assets/mikkel.jpg"
           alt="Mikkel"
@@ -13,7 +13,7 @@ export default function About() {
           className="object-cover"
         />
       </div>
-      <div className="text-primary flex flex-col gap-5 lg:w-1/2">
+      <div className="text-primary flex flex-col gap-5 lg:w-1/2 p-10 lg:p-0">
         <div>
           <h2>Om Mig - Mikkel Kjær Regnér, Fysioterapeut</h2>
           <p>
