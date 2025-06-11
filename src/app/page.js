@@ -1,10 +1,10 @@
-import ContactFormular from "@/components/ContactFormular";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <div>
       <main className="min-h-screen flex items-center justify-center">
-        <ContactFormular />
+        <Contact />
       </main>
     </div>
   );
